@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <meta name="description" content="site">
+    <style>
+        .container {
+            margin: 0 auto;
+            padding: 0;
+            width: 1200px;
+        }
+
+        #title {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size:40px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        #question {
+            padding-bottom: 16px;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+        .button{
+            text-align: center;
+            margin-top:50px;
+        }
+        button {
+            padding: 5px 10px;
+            font-size: 20px;
+            width: 200px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        　　<h1 id="title">クイズ　アプリ</h1>
+        　　<p id="genre"></p>
+        　　<p id="difficulty"></p>
+        <hr>
+        　　<p id="question">以下のボタンをクリックと4択問題が始まります。</p>
+        <hr>
+            <div class="button">
+        　　<button id="start-button">開始</button>
+            </div>
+        　<div id="answers"></div>
+
+    
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
